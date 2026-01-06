@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.font-open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+header{
+    background-color: #FFF8F3;
+    padding-top: 50px;
+}
+nav{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 45px;
+    font-weight: 900;
+}
+.color-orange{
+    color:#FD6E0A;
+}
+ul{
+    display: flex;
+    gap:51px;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: #474747;
+}
+.btn{
+    font-size: 20px;
+    font-weight: bold;
+    width:150px;
+    height:65px;
+    background-color: #FD6E0A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
