@@ -10,6 +10,10 @@
 header{
     background-color: #FFF8F3;
     padding-top: 50px;
+    background: url(../images/developer.png), url(../images/header_bg.png), #FFF8F3;
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+
 }
 nav{
     width: 1140px;
@@ -47,4 +51,63 @@ ul li a{
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+#bannar{
+    max-width: 1332px;
+    margin: 46px 38px 0px 230px;
+    display: flex;
+    align-items: center;
+}
+#bannar .content{
+    max-width: 585px;
+}
+#bannar .content h2{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+}
+#bannar .content h1{
+    font-size: 85px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: 181818;
+}
+#bannar .content p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #757575;
+}
+#bannar .image img{
+    vertical-align: middle;
+}
+.button{
+    display: flex;
+    gap:30px;
+}
+#bannar .button{
+    margin-top: 30px;
+}
+#bannar .button .btn-design-1{
+    padding: 19px 17px 18px 17px;
+    background-color: #FD6E0A;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px ;
+}
+#bannar .button .btn-design-2{
+    padding: 19px 17px 18px 17px;
+    background-color: white;
+    color: #FD6E0A;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border: 2px solid #FD6E0A;
+    border-radius: 5px ;
+}
+#bannar .image img{
+    width: 584px;
 }
