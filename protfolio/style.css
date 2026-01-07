@@ -113,14 +113,14 @@ ul li a{
 #bannar .image img{
     width: 584px;
 }
-section{
-    padding-top: 133px;
-}
+
 
 section .about-me{
     background-color: #FFF8F3;
     max-width: 1140px;
     margin: 0px auto;
+    margin-top: 133px;
+    border-radius: 10px;
 }
 section .about-me-content{
     text-align: center;
@@ -147,4 +147,57 @@ section .about-me-info{
     width: 782;
     padding-left: 22.5px;
     padding-right: 22.5px;
+}
+
+section .skill-container{
+    padding-top: 101px; 
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+section .skill-container-content{
+    max-width: 827px;
+    margin: 0 auto;
+}
+section .skill-container-content h1{
+    max-width: 167px;
+    margin: 0 auto;
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 40px;
+    color: #181818;
+}
+section .skill-container-content p{
+    max-width: 827px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400px;
+    color: #757575;
+    line-height: 30px;
+    padding-bottom: 40px;
+}
+section .skill-cards{
+    display: flex;
+    gap: 24px;
+}
+
+section .skill-cards-content{
+    /* border: 1px solid red; */
+    max-width: 267px;
+    box-shadow: 0px 6px 50px 0px #e3e1e1;
+}
+section .skill-cards-content img{
+    padding: 30px;
+}
+section .skill-cards-content h3{
+    padding-left: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #181818;
+}
+section .skill-cards-content p{
+    padding: 20px 33px 30px 33px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
 }
