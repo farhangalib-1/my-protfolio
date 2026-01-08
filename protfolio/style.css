@@ -201,3 +201,192 @@ section .skill-cards-content p{
     line-height: 28px;
     color: #757575;
 }
+section .resume-container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-top: 130px;
+}
+section .resume-container h1{
+    max-width: 455px;
+    margin: 0 auto;
+    padding-bottom: 130px;
+}
+section .my-achivment{
+    display: flex;
+    gap: 24px;
+}
+section .my-education{
+    max-width: 558px;
+}
+section .education-1 h2{
+    max-width: 203px;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 30px;
+    color: #474747;
+}
+section .education-1 h3{
+    max-width: 405px;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: #474747;
+}
+section .education-1 h4{
+    max-width: 309px;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    color: #757575;
+}
+section .education-1 p{
+    max-width: 511px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-bottom: 30px;
+    color: #757575;
+
+}
+
+section .education-2 h3{
+    max-width: 405px;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: #474747;
+}
+section .education-2 h4{
+    max-width: 309px;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    color: #757575;
+}
+section .education-2 p{
+    max-width: 511px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-bottom: 30px;
+    color: #757575;
+}
+section .education-3 h3{
+    max-width: 405px;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: #474747;
+}
+section .education-3 h4{
+    max-width: 309px;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    color: #757575;
+}
+section .education-3 p{
+    max-width: 511px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-bottom: 30px;
+    color: #757575;
+}
+section .my-experiences{
+    max-width: 558px;
+}
+section .experience-1 h2{
+    max-width: 218px;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 30px;
+    color: #474747;
+}
+
+section .experience-1 h3{
+    max-width: 282px;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: #474747;
+}
+section .experience-1 h4{
+    max-width: 245px;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    color: #757575;
+}
+section .experience-1 p{
+    max-width: 511px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-bottom: 30px;
+    color: #757575;
+}
+section .experience-2 h3{
+    max-width: 282px;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: #474747;
+}
+section .experience-2 h4{
+    max-width: 245px;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    color: #757575;
+}
+section .experience-2 p{
+    max-width: 511px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-bottom: 30px;
+    color: #757575;
+
+}
+section .experience-3 h3{
+    max-width: 282px;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: #474747;
+}
+section .experience-3 h4{
+    max-width: 245px;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    color: #757575;
+}
+section .experience-3 p{
+    max-width: 511px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-bottom: 30px;
+    color: #757575;
+}
+section .button-design{
+    max-width:200px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+section .button-design .btn-design-3{
+    padding: 19px 18px 17px 18px;
+    background-color: #FD6E0A;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
