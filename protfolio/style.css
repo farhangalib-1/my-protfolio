@@ -12,7 +12,7 @@ header{
     padding-top: 50px;
     background: url(../images/developer.png), url(../images/header_bg.png), #FFF8F3;
     background-repeat: no-repeat;
-    background-position: top left, bottom right;
+    background-position: 23px 38px, bottom right;
 
 }
 nav{
@@ -25,6 +25,7 @@ nav{
 .logo{
     font-size: 45px;
     font-weight: 900;
+    padding-left: 40px;
 }
 .color-orange{
     color:#FD6E0A;
@@ -60,6 +61,7 @@ ul li a{
 }
 #bannar .content{
     max-width: 585px;
+    padding-bottom: 90px;
 }
 #bannar .content h2{
     font-size: 45px;
@@ -74,6 +76,7 @@ ul li a{
     color: 181818;
 }
 #bannar .content p{
+    max-width: 584px;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -379,6 +382,7 @@ section .button-design{
     max-width:200px;
     margin: 0 auto;
     padding-top: 50px;
+    padding-bottom: 113px;
 }
 section .button-design .btn-design-3{
     padding: 19px 18px 17px 18px;
@@ -390,3 +394,100 @@ section .button-design .btn-design-3{
     border-radius: 5px;
     cursor: pointer;
 }
+footer{
+    max-width: 1600px;
+    background-color: #FFF8F3;
+}
+footer .footer-container{
+    padding-top: 130px;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+footer .icons{
+    display: flex;
+}
+footer .footer-container{
+    display: flex;
+}
+footer .footer-content h1{
+    max-width: 227px;;
+    padding-bottom: 20px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+footer .footer-content p{
+    max-width: 562px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #474747;
+    margin-right: 117px;
+    margin-bottom: 30px;
+}
+footer .icons .fb{
+    padding-right: 24px;
+}
+footer .icons .twitter{
+    padding-right: 24px;
+}
+.form-head{
+    padding-bottom: 28px;
+    max-width: 305px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.form-txt input[type="text"]{
+    font-family: Open Sans;
+    width: 461px;
+    padding-left: 30px;
+    padding-bottom: 18px;
+    padding-top: 18px;
+    border: none;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #757575;
+    margin-bottom: 24px;
+}
+.form-email input[type="email"]{
+    font-family: Open Sans;
+    width: 461px;
+    padding-left: 30px;
+    padding-bottom: 18px;
+    padding-top: 18px;
+    border: none;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #757575;
+    margin-bottom: 24px;
+}
+form textarea{
+    width: 461px;
+    height: 180px;
+    padding-top: 18px;
+    padding-left: 30px;
+    font-family: Open Sans;
+    border: none;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #757575;
+    margin-bottom: 24px;
+}
+.submit-button{
+    max-width: 150px;
+    margin-bottom: 130px;
+}
+ .sum-btn{
+    padding: 18px 39px 19px 39px;
+    background-color: #FD6E0A;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    
+ }
